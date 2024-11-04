@@ -28,7 +28,7 @@ public class Caculator extends JFrame implements ActionListener{
         String[] arr = {"7", "8", "9", "/",
                 "4", "5", "6", "*",
                 "1", "2", "3", "-",
-                "0", ".", "=", "+", "C", "^", "sqrt", "Cre LND"};
+                "0", ".", "=", "+", "C", "^", "sqrt"};
         for (int i = 0; i < arr.length; i++) {
             JButton button = new JButton(arr[i]);
             panel.add(button);
